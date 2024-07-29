@@ -1,0 +1,19 @@
+/* src/styles/ManageStudents.css */
+
+.manage-students {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 2rem;
+  }
+  
+  .view-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  

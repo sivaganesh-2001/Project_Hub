@@ -1,0 +1,70 @@
+/* src/styles/ManageFaculty.css */
+
+.manage-faculty {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 2rem; /* Increase the gap between cards */
+    justify-content: center; /* Center items in each column */
+    margin: 2rem 0; /* Adjust margins for top and bottom */
+    box-sizing: border-box;
+}
+
+.card-grid .card {
+    padding: 1rem; /* Add padding inside the cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center; /* Center text inside the card */
+    width: 100%; /* Ensure cards are the same width */
+    max-width: 300px; /* Set a maximum width for the cards */
+    box-sizing: border-box;
+}
+
+.view-card {
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Full width of the container */
+    margin-top: 2rem; /* Adjust top margin */
+}
+
+.view-card .card {
+    width: 100%; /* Full width of the container */
+    padding: 1rem; /* Add padding inside the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center; /* Center text inside the card */
+    max-width: 632px; /* Span the width of two cards and the gap */
+    box-sizing: border-box;
+}
+
+.register-faculty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.register-faculty form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+.register-faculty label {
+    font-weight: bold;
+}
+
+.register-faculty input,
+.register-faculty select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
